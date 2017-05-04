@@ -1,10 +1,11 @@
 ## PS3 MDDN 242 2017
 
-### Concept Map
+### Scrape Montage
 
-Using the images provided in class, select 50 for your
-grid composition. Arrange them in a 10x5 grid. Replace
-the preview.jpg with your final image, and save a smaller
-copy in thumbnail.png.
+Update the included scripts to create your own
+grid based montage. The scripts will be covered
+in class Friday.
 
-Describe here your selection and layout process.
+Describe here your images you decided to use
+and any compromises that were necessary to
+build your collection.

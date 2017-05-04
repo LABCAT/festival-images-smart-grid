@@ -1,6 +1,6 @@
 ## PS3 MDDN 242 2017
 
-### Concept Map
+### Reincarnation Map
 
 Using the images provided in class, select 50 for your
 grid composition. Arrange them in a 10x5 grid. Replace

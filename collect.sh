@@ -9,7 +9,7 @@ mkdir -p downloads
 # clean the directory if there are old results
 rm -f downloads/*
 
-SEARCH_STRING="machine"
+SEARCH_STRING="robot"
 
 # get 20 pages
 for PAGE in {1..50}

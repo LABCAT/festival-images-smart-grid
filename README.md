@@ -1,9 +1,11 @@
 ## PS3 MDDN 242 2017
 
-### Reincarnation Map
+### Scrape Montage
 
-The first thing that I did was organise all the images into separate category folders.  I then started to think about which images to include in my map and created the idea of a reincarnation map.  This map is representation of which beings/objects I would most desire to be reincarnated as.
+Update the included scripts to create your own
+grid based montage. The scripts will be covered
+in class Friday.
 
-The right side of the map represents the most desirable and the left side the least desirable.  There are five separate groups and the images are also ranked within each group from the bottom to the top.
-
-I also organized the images within each group so that the the ones which shared common traits were in close proximity to each other while also working within my ranking system.
+Describe here your images you decided to use
+and any compromises that were necessary to
+build your collection.

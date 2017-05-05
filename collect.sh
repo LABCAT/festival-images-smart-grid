@@ -9,7 +9,7 @@ mkdir -p downloads
 # clean the directory if there are old results
 rm -f downloads/*
 
-SEARCH_STRING="watermelon"
+SEARCH_STRING="japan"
 
 # get 20 pages
 for PAGE in {1..50}

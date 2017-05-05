@@ -9,10 +9,10 @@ mkdir -p downloads
 # clean the directory if there are old results
 rm -f downloads/*
 
-SEARCH_STRING="magic"
+SEARCH_STRING="robot"
 
 # get 20 pages
-for PAGE in {1..20}
+for PAGE in {1..50}
 do
     # build the url
     URL='http://www.sluniverse.com/snapzilla/Home/Search?term='$SEARCH_STRING'&page='$PAGE'#pictures'

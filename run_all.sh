@@ -8,5 +8,5 @@ bash collect.sh
 bash resize.sh
 echo "Hit <control>-C now if you want to clean up the images"
 sleep 5
-bash montage.sh
+bash smartgrid.sh
 bash preview.sh

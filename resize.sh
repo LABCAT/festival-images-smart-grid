@@ -17,3 +17,11 @@ mogrify \
   -gravity center \
   -extent 128x128 \
   'downloads/*.jpg'
+
+mogrify \
+  -path resized \
+  -thumbnail 128x128^ \
+  -background black \
+  -gravity center \
+  -extent 128x128 \
+  'downloads/*.png'

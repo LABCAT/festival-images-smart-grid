@@ -11,7 +11,7 @@ rm -f downloads/*
 
 SEARCH_STRING="robot"
 
-# get 20 pages
+# get 50 pages
 for PAGE in {1..50}
 do
     # build the url

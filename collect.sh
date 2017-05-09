@@ -11,33 +11,40 @@ rm -f downloads/*
 
 SEARCH_STRING="robot"
 
-# get 50 pages
-for PAGE in {1..50}
-do
-    # build the url
-    URL='http://www.sluniverse.com/snapzilla/Home/Search?term='$SEARCH_STRING'&page='$PAGE'#pictures'
-    
-    # fetch the images
-    wget --adjust-extension \
-         --random-wait \
-         --limit-rate=100k \
-         --span-hosts \
-         --convert-links \
-         --backup-converted \
-         --no-directories \
-         --timestamping \
-         --page-requisites \
-         --directory-prefix=downloads \
-         --execute robots=off \
-         --accept=*jpg*,*png* \
-         $URL
+declare -a arr=("strawberry" "watermelon" "kiwi")
 
-# other unused arguments
-         # --recursive \
-         # --level 1 \
-         # --domains en.wikipedia.org \
-     
+
+for i in "${arr[@]}"
+do
+   # get 20 pages
+    for PAGE in {1..20}
+    do
+        # build the url
+        URL='http://www.sluniverse.com/snapzilla/Home/Search?term='$i'&page='$PAGE'#pictures'
+        
+        # fetch the images
+        wget --adjust-extension \
+             --random-wait \
+             --limit-rate=100k \
+             --span-hosts \
+             --convert-links \
+             --backup-converted \
+             --no-directories \
+             --timestamping \
+             --page-requisites \
+             --directory-prefix=downloads \
+             --execute robots=off \
+             --accept=*jpg*,*png* \
+             $URL
+
+        # other unused arguments
+             # --recursive \
+             # --level 1 \
+             # --domains en.wikipedia.org \
+         
+    done
 done
+
 
 #change to the downloads directory
 cd downloads

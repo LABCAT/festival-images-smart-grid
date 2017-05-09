@@ -9,8 +9,9 @@ mkdir -p downloads
 # clean the directory if there are old results
 rm -f downloads/*
 
-SEARCH_STRING="robot"
+#SEARCH_STRING="robot"
 
+#create a array of keywords to use in the scrape
 declare -a arr=("strawberry" "watermelon" "kiwi")
 
 
@@ -45,17 +46,5 @@ do
     done
 done
 
-
-#change to the downloads directory
-cd downloads
-
-#remove query strings from all jpg files
-for file in *.jpg\?*; do mv "$file" "${file%%\?*}"; done
-
-#remove query strings from all png files
-for file in *.png\?*; do mv "$file" "${file%%\?*}"; done
-
-#return to previous directory
-cd ../
 
 # URL='http://www.trademe.co.nz/Browse/SearchResults.aspx?&cid=0&searchType=&searchString='$SEARCH_STRING'&x=0&y=0&type=Search&sort_order=&redirectFromAll=False&rptpath=all&page='$PAGE'&user_region=100&user_district=0&generalSearch_keypresses=8&generalSearch_suggested=0&generalSearch_suggestedCategory='

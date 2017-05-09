@@ -12,7 +12,7 @@ rm -f downloads/*
 #SEARCH_STRING="robot"
 
 #create a array of keywords to use in the scrape
-declare -a arr=("robot" "alien" "monster")
+declare -a arr=("guitar" "piano" "keyboard" "turntable" "violin" "cello" "saxophone" "trumpet" "bass" "horn" "drum" "tuba" "harp")
 
 
 for i in "${arr[@]}"

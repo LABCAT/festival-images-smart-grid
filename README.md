@@ -1,9 +1,9 @@
 ## PS3 MDDN 242 2017
 
-### Robot Montage
+### Musical Instruments Montage
 
-Before deciding what keyword to use for my montage I first looked for a site with interesting images to scrape. I decided I wanted to use images created inside the virtual world of Second Life and found a photo sharing site called Snapzilla.
+This is a montage of pictures containing musical instruments created from inside the virtual world of Second Life.  I have chosen the output created by the smartgrid as it has organised the images very well and produced a great result.
 
-All the images on this site contained query strings so I had to alter the collect script to allow these images to be downloaded. I also had to add some commands to remove the query strings from the downloaded files as the resize and montage scripts wouldn't work otherwise.
+I used the same site to scrape images as I did in the previous part of the assignment. Initially I tried it with the same keyword I used previously but I didn't think that the result was very good. I then modified the collect.sh script so that it would allow me to get results for many keywords instead of just one.
 
-Once I had the scripts working I tried several tests with different keywords to see what the results would be. As a result of my tests I decided to create a robot montage as this keyword produced the most interesting results. So I ran the collect script again and then manually filtered out some of the images before creating my final montage.
+I then tried it out with some different keyword sets to see what color grids and smart grids would be created. This result was created using a keyword set consisting of musical instruments and I am very pleased with the outcome.

@@ -11,7 +11,10 @@ rm -f downloads/*
 
 #SEARCH_STRING="robot"
 
-#create a array of keywords to use in the scrape
+#Create a array of keywords to use in the scrape.
+#This allows me to scrape images for a set of keywords instead of just one.
+#I needed to implement this as the search functionality of the site I am scraping
+#was not complex enough to allow for "OR" based searches.
 declare -a arr=("guitar" "piano" "keyboard" "turntable" "violin" "cello" "saxophone" "trumpet" "bass" "horn" "drum" "tuba" "harp")
 
 
@@ -22,7 +25,7 @@ do
     do
         # build the url
         URL='http://www.sluniverse.com/snapzilla/Home/Search?term='$i'&page='$PAGE'#pictures'
-        
+
         # fetch the images
         wget --adjust-extension \
              --random-wait \
@@ -42,7 +45,7 @@ do
              # --recursive \
              # --level 1 \
              # --domains en.wikipedia.org \
-         
+
     done
 done
 

@@ -1,6 +1,6 @@
 ## PS3 MDDN 242 2017
 
-### Bright Lights Montage
+### Bright Lights Montage - Smart Grid
 
 This is a montage of pictures retrieved from http://www.publicdomainpictures.net/. Instead of using the search functionality I choose the 'light effects' category and scraped every image that was in that category.
 

@@ -12,16 +12,16 @@ rm -f resized/*
 # this command resizes to 128x128, chopping what doesn't fit
 mogrify \
   -path resized \
-  -thumbnail 128x128^ \
+  -thumbnail 120x120^ \
   -background black \
   -gravity center \
-  -extent 128x128 \
+  -extent 120x120 \
   'downloads/*.jpg'
 
 mogrify \
   -path resized \
-  -thumbnail 128x128^ \
+  -thumbnail 120x120^ \
   -background black \
   -gravity center \
-  -extent 128x128 \
+  -extent 120x120 \
   'downloads/*.png'

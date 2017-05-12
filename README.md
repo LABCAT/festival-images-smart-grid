@@ -1,9 +1,7 @@
 ## PS3 MDDN 242 2017
 
-### Musical Instruments Montage
+### Bright Lights Montage
 
-This is a montage of pictures containing musical instruments created from inside the virtual world of Second Life.  I have chosen the output created by the smartgrid as it has organised the images very well and produced a great result.
+This is a montage of pictures retrieved from http://www.publicdomainpictures.net/. Instead of using the search functionality I choose the 'light effects' category and scraped every image that was in that category.
 
-I used the same site to scrape images as I did in the previous part of the assignment. Initially I tried it with the same keyword I used previously but I didn't think that the result was very good. I then modified the collect.sh script so that it would allow me to get results for many keywords instead of just one.
-
-I then tried it out with some different keyword sets to see what color grids and smart grids would be created. This result was created using a keyword set consisting of musical instruments and I am very pleased with the outcome.
+This is not the main commit for result2 as I think that the colour grid has turned out better.  However I think the smart grid is still very good so want to include this revision in my curated purview file.

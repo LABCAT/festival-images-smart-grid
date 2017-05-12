@@ -1,16 +1,20 @@
 {
   "commits": [
     {
-        "sha": "c8b053b80f211ac53b29e917c71087c73900ab3d",
+        "sha": "3847f52c6369abf1930020c1a5f593e2407969d8",
+        "name": "result2_smartgrid_test"
+    },
+    {
+        "sha": "3847f52c6369abf1930020c1a5f593e2407969d8",
         "name": "result1"
     },
     {
         "sha": "444aea8e46b8251d1331a7626c8a38d8cc56b6ad",
-        "name": "sketch_scrape_montage"
+        "name": "scrape_montage"
     },
     {
         "sha": "c8cdf6d2567670641e33aac41af31249c5e96c5d",
-        "name": "sketch_concept_map"
+        "name": "sketch"
     }
   ]
 }

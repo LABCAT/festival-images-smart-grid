@@ -1,6 +1,6 @@
 // update these image dimensions to match montage.jpg
-var w = 2560;
-var h = 1972;
+var w = 6240;
+var h = 6240;
 
 url = 'montage.jpg';
 
@@ -10,7 +10,7 @@ url = 'montage.jpg';
 // create the slippy map
 var map = L.map('image-map', {
   minZoom: 1,
-  maxZoom: 4,
+  maxZoom: 6,
   center: [0, 0],
   zoom: 1,
   crs: L.CRS.Simple

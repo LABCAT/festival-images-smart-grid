@@ -9,13 +9,16 @@ mkdir -p downloads
 # clean the directory if there are old results
 rm -f downloads/*
 
-SEARCH_STRING="garfield"
-
 # get 5 pages
-for PAGE in {1..5}
+for PAGE in {1..20}
 do
-    # build the url
-    URL='http://www.trademe.co.nz/Browse/SearchResults.aspx?&cid=0&searchType=&searchString='$SEARCH_STRING'&x=0&y=0&type=Search&sort_order=&redirectFromAll=False&rptpath=all&page='$PAGE'&user_region=100&user_district=0&generalSearch_keypresses=8&generalSearch_suggested=0&generalSearch_suggestedCategory='
+    # this is an example with a group
+    URL='https://www.flickr.com/groups/dogsdogsdogs/pool/page'$PAGE
+    # this is an example with tags
+    # URL='https://www.flickr.com/photos/tags/'$SEARCH_STRING'/page'$PAGE
+
+    echo "about to fetch URL: " $URL
+    sleep 3
 
     # fetch the images
     wget --adjust-extension \
@@ -29,7 +32,7 @@ do
          --page-requisites \
          --directory-prefix=downloads \
          --execute robots=off \
-         --accept=[0-9]*.jpg \
+         --accept=.jpg \
          $URL
 
 # other unused arguments

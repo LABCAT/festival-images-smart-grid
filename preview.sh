@@ -3,9 +3,10 @@
 # show commands and stop if there is an error
 set -ex
 
-cp smartgrid/grid.jpg montage.jpg
-# NOTE: to use colorgrid, replace above line with:
+# NOTE: uncomment one of the following lines:
+cp customgrid/grid.jpg montage.jpg
 # cp colorgrid/grid.jpg montage.jpg
+# cp smartgrid/grid.jpg montage.jpg
 
 # convert montage to preview shaped image
 convert montage.jpg \

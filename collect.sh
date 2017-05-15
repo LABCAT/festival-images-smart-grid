@@ -10,10 +10,10 @@ mkdir -p downloads
 rm -f downloads/*
 
 # get 5 pages
-for PAGE in {1..20}
+for PAGE in {1..10}
 do
     # this is an example with a group
-    URL='https://www.flickr.com/groups/dogsdogsdogs/pool/page'$PAGE
+    URL='https://www.flickr.com/groups/hdr/pool/page'$PAGE
     # this is an example with tags
     # URL='https://www.flickr.com/photos/tags/'$SEARCH_STRING'/page'$PAGE
 

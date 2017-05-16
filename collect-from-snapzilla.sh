@@ -21,7 +21,7 @@ declare -a arr=("guitar" "piano" "keyboard" "turntable" "violin" "cello" "saxoph
 for i in "${arr[@]}"
 do
    # get 20 pages
-    for PAGE in {1..20}
+    for PAGE in {1..32}
     do
         # build the url
         URL='http://www.sluniverse.com/snapzilla/Home/Search?term='$i'&page='$PAGE'#pictures'

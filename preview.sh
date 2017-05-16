@@ -4,9 +4,13 @@
 set -ex
 
 # NOTE: uncomment one of the following lines:
-cp customgrid/grid.jpg montage.jpg
 # cp colorgrid/grid.jpg montage.jpg
 # cp smartgrid/grid.jpg montage.jpg
+cp customgrid/grid.jpg montage.jpg
+
+# this is just for the final versino
+cp customgrid/*.png .
+cp customgrid/left_right.jpg .
 
 # convert montage to preview shaped image
 convert montage.jpg \

@@ -16,7 +16,7 @@ export PATH="/usr/local/anaconda/bin:$PATH"
 python /usr/local/anaconda/extras/smartgrid.py \
   --tile 12x6 \
   --input-glob 'resized/*' \
-  --left-image 'resized/33317502420_f6c962009a.jpg' \
-  --right-image 'resized/34613256506_b02def17cf_z.jpg' \
+  --left-image 'resized/29516311783_87657c243a.jpg' \
+  --right-image 'resized/33488098312_91556220b5_z.jpg' \
   --output-path customgrid
 

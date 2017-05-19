@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#this script collects images from flickr using a tag - the tag should be passed to this script as the only argument
+
 # show commands and stop if there is an error
 set -ex
 
@@ -9,7 +11,6 @@ mkdir -p downloads
 # clean the directory if there are old results
 rm -f downloads/*
 
-TAG=$1
 
 # get 80 pages
 for PAGE in {1..80}

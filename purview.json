@@ -1,12 +1,12 @@
 {
   "commits": [
     {
-        "sha": "",
+        "sha": "5490c1ae6720f75e0711603ed298b4d7f3a7abac",
         "name": "final"
     },
     {
         "sha": "a877fb62934cc37dc165fa1cd56ed834481ae7b5",
-        "name": "festival_colorgrid"
+        "name": "result3"
     },
     {
         "sha": "fec1e8da38a13afa27828c076cb20477187bc8e3",
@@ -14,7 +14,7 @@
     },
     {
         "sha": "13a27448a0dbc93733117012528e07de43f17996",
-        "name": "lanterns_smartgrid"
+        "name": "result2"
     },
     {
         "sha": "ad2208b8725d607772be5383850754f974a448ee",

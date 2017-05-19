@@ -7,6 +7,7 @@ set -ex
 ### Step by Step Process
 bash collect-from-snapzilla.sh
 bash remove-query-strings.sh
+bash remove-unwanted-images-1.sh
 # manually curate the images downloaded
 bash resize-1.sh
 echo "Hit <control>-C now if you want to clean up the images"

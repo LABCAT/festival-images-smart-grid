@@ -1,6 +1,6 @@
 // update these image dimensions to match montage.jpg
-var w = 10800;
-var h = 9720;
+var w = 15520;
+var h = 8640;
 var maxZoom = 6;
 
 url = 'montage.jpg';

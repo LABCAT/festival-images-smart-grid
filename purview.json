@@ -1,6 +1,10 @@
 {
   "commits": [
     {
+        "sha": "",
+        "name": "final"
+    },
+    {
         "sha": "a877fb62934cc37dc165fa1cd56ed834481ae7b5",
         "name": "festival_colorgrid"
     },
@@ -26,7 +30,7 @@
     },
     {
         "sha": "04d959900f7c4ea641410d6ff1d630d224a92414",
-        "name": "result2"
+        "name": "bright_lights_colorgrid"
     },
     {
         "sha": "67325099c3bee2f8159b9e2bfab526c58de8f2d9",

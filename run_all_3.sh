@@ -5,7 +5,7 @@ set -ex
 
 # this command makes a single image of whatever was not deleted
 ### Step by Step Process
-bash collect-from-flickr.sh lantern
+bash collect-from-flickr.sh festival
 bash remove-query-strings.sh
 bash remove-unwanted-images-3.sh
 # manually curate the images downloaded

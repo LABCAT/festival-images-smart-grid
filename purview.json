@@ -1,8 +1,24 @@
 {
   "commits": [
     {
+        "sha": "a877fb62934cc37dc165fa1cd56ed834481ae7b5",
+        "name": "festival_colorgrid"
+    },
+    {
+        "sha": "fec1e8da38a13afa27828c076cb20477187bc8e3",
+        "name": "festival_smartgrid"
+    },
+    {
+        "sha": "13a27448a0dbc93733117012528e07de43f17996",
+        "name": "lanterns_smartgrid"
+    },
+    {
+        "sha": "ad2208b8725d607772be5383850754f974a448ee",
+        "name": "lanterns_colorgrid"
+    },
+    {
         "sha": "1ddb6ba92be572bb47f8ef6f1d9afc49c6bf3bbd",
-        "name": "lego_minfigures_colour_grid"
+        "name": "lego_minfigures_colorgrid"
     },
     {
         "sha": "4561be9fe4747a84f73d04a3f2acf5f1d6e1539a",

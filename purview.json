@@ -1,6 +1,14 @@
 {
   "commits": [
     {
+        "sha": "1ddb6ba92be572bb47f8ef6f1d9afc49c6bf3bbd",
+        "name": "lego_minfigures_colour_grid"
+    },
+    {
+        "sha": "4561be9fe4747a84f73d04a3f2acf5f1d6e1539a",
+        "name": "lego_minfigures_smartgrid"
+    },
+    {
         "sha": "04d959900f7c4ea641410d6ff1d630d224a92414",
         "name": "result2"
     },

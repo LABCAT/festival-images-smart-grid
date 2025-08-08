@@ -4,6 +4,8 @@
 
 ![alt text](https://raw.githubusercontent.com/LABCAT/festival-images-smart-grid/master/preview.jpg)
 
+[View the GitHub Pages site](https://labcat.github.io/festival-images-smart-grid/)
+
 The main motivation that determined how I have chosen the images for my montages was the desire to create visually interesting and beautiful images. I wanted the results to be montages that I can use for desktop backgrounds on my home computer.
 
 The images used in the final montage have been scraped from flickr using the tag 'festival' and by retrieving all 80 pages that are available.  This meant I had over 3000 images before commencing the manual filtering. Due to this the curation process was quite daunting so I tried to do it very quickly. 
